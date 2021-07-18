@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Fylo Tasks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+FT es un administrador de proyectos y tareas. Podras registrarte y obtener una cuenta. Una vez iniciada la sesión, podrás comenzar a crear tus proyectos  y sus tareas.Cada tarea puede a su vez ser editada o marcada como "completa" o "incompleta".
 
-## Available Scripts
+¿Por qué se llama Fylo Tasks? Antes de construir este proyecto, habia realizado un desafio de maquetacion propuesto por Frontend Mentor llamado Fylo dark  (https://www.frontendmentor.io/challenges/fylo-dark-theme-landing-page-5ca5f2d21e82137ec91a50fd). Por lo tanto, lo que hice fue adaptar el contenido de la pagina construida a la tematica de este proyecto.
 
-In the project directory, you can run:
+Repositorio del backend: https://github.com/GDC94/FyloTasks-Backend
 
-### `npm start`
+## Comenzando 🚀
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Construido con 🛠️
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+_Menciona las herramientas que utilizaste para crear tu proyecto_
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Pre-requisitos 📋
 
-## Learn More
+_Que cosas necesitas para instalar el software y como instalarlas_
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Instalación 🔧
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
-### Analyzing the Bundle Size
+_Dí cómo será ese paso_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+Da un ejemplo
+```
 
-### Making a Progressive Web App
+_Y repite_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+hasta finalizar
+```
 
-### Advanced Configuration
+_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Ejecutando las pruebas ⚙️
 
-### Deployment
+_Explica como ejecutar las pruebas automatizadas para este sistema_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Analice las pruebas end-to-end 🔩
 
-### `npm run build` fails to minify
+_Explica que verifican estas pruebas y por qué_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+Da un ejemplo
+```
+
+### Y las pruebas de estilo de codificación ⌨️
+
+_Explica que verifican estas pruebas y por qué_
+
+```
+Da un ejemplo
+```
+
+## Despliegue 📦
+
+_Agrega notas adicionales sobre como hacer deploy_
+
+
+
