@@ -6,27 +6,29 @@
   --gris3: #80c2f8;
   --negro: #000000;
   --h1: #012c64;
-  --headingFont:'Raleway', sans-serif;
-  --textFont:  'Roboto', sans-serif;
+  --headingFont: "Raleway", sans-serif;
+  --textFont: "Roboto", sans-serif;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
-} 
+}
 html {
   box-sizing: border-box;
   height: 100%;
-  font-size: 62.5%; 
+  font-size: 62.5%;
 }
 body {
   min-height: 100%;
   background-color: var(--gris1);
-  font-size: 16px; 
+  font-size: 16px;
   font-size: 1.6rem;
   font-family: var(--textFont);
 }
 
-
-h1, h2 {
+h1,
+h2 {
   font-family: var(--headingFont);
   font-weight: 900;
   margin: 0 0 4rem 0;
@@ -60,15 +62,15 @@ a {
   padding: 1.5rem;
   font-size: 1.4;
   font-weight: 400;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border: none;
-  transition: background-color .3s ease;
+  transition: background-color 0.3s ease;
 }
 .btn:hover {
   cursor: pointer;
 }
 .btn-primario {
-  background-color:rgb(16, 6, 77);
+  background-color: rgb(16, 6, 77);
   color: var(--blanco);
 }
 .btn-primario:hover {
@@ -88,44 +90,40 @@ a {
   margin: 0;
   padding: 0;
   display: block;
- color: whitesmoke;
- background-color: transparent;
- font-weight: 600;
- 
+  color: whitesmoke;
+  background-color: transparent;
+  font-weight: 600;
 }
 
-.eliminar{
+.eliminar {
   background-color: red;
   color: rgb(250, 250, 250);
   font-weight: bold;
   display: block;
   width: 100%;
-
 }
 
-.fa-user{
+.fa-user {
   color: white;
 }
 
 @media (min-width: 768px) {
   .contenedor-app {
-      display: flex;
-      min-height: 100vh;
+    display: flex;
+    min-height: 100vh;
   }
 
   aside {
-      background-color: var(--blanco);
-      flex: 0 0 300px;
+    background-color: var(--blanco);
+    flex: 0 0 300px;
   }
   .seccion-principal {
-      flex: 1;
+    flex: 1;
   }
-
 }
 
-
 /* BARRA LATERAL */
-aside  {
+aside {
   padding: 3rem;
 }
 
@@ -137,7 +135,7 @@ aside  {
   border-radius: 0;
   background-color: var(--blanco);
 }
-.formulario-nuevo-proyecto .input-text::placeholder{
+.formulario-nuevo-proyecto .input-text::placeholder {
   color: var(--gris2);
 }
 .proyectos {
@@ -193,7 +191,7 @@ aside  {
 .input-text {
   padding: 1rem;
   border: none;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   flex: 1;
   width: 100%;
 }
@@ -202,8 +200,6 @@ aside  {
 .contenedor-tareas {
   padding: 4rem;
 }
-
-
 
 .listado-tareas {
   max-width: 600px;
@@ -214,21 +210,20 @@ aside  {
   display: flex;
   justify-content: space-between;
   background-color: var(--blanco);
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
   align-items: center;
   margin-bottom: 1rem;
-  border-radius: .5rem;
-
+  border-radius: 0.5rem;
 }
 .sombra {
-  -webkit-box-shadow: 0px 4px 10px -3px rgba(117,117,117,1);
-  -moz-box-shadow: 0px 4px 10px -3px rgba(117,117,117,1);
-  box-shadow: 0px 4px 10px -3px rgba(117,117,117,1);
+  -webkit-box-shadow: 0px 4px 10px -3px rgba(117, 117, 117, 1);
+  -moz-box-shadow: 0px 4px 10px -3px rgba(117, 117, 117, 1);
+  box-shadow: 0px 4px 10px -3px rgba(117, 117, 117, 1);
 }
 .sombra-dark {
-  -webkit-box-shadow: 0px 6px 11px -8px rgba(0,0,0,0.9);
-  -moz-box-shadow: 0px 6px 11px -8px rgba(0,0,0,0.9);
-  box-shadow: 0px 6px 11px -8px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0px 6px 11px -8px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0px 6px 11px -8px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 6px 11px -8px rgba(0, 0, 0, 0.9);
 }
 .tarea .acciones .btn:first-of-type {
   margin-right: 1rem;
@@ -240,8 +235,8 @@ aside  {
   color: #112649;
 }
 .tarea .btn {
-  padding: .8rem;
-  font-size:1.4rem;
+  padding: 0.8rem;
+  font-size: 1.4rem;
   border-radius: 0;
   margin: 0;
 }
@@ -249,13 +244,13 @@ aside  {
 .estado {
   margin-right: 1rem;
 }
-.estado button, 
+.estado button,
 .mensaje {
   font-weight: 900;
   font-family: var(--textFont);
   font-size: 1rem;
-  padding: .5rem;
-  border-radius: .5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
   cursor: pointer;
   border: none;
 }
@@ -269,11 +264,11 @@ aside  {
 }
 .completo,
 .correcto {
-  background-color: rgba(154, 252, 154, .3);
+  background-color: rgba(154, 252, 154, 0.3);
   color: rgb(0, 167, 0);
 }
-.incompleto{
-  background-color: rgba(255, 178, 178, .4);
+.incompleto {
+  background-color: rgba(255, 178, 178, 0.4);
   color: red;
 }
 .error {
@@ -282,8 +277,6 @@ aside  {
   background-color: rgb(170, 0, 0);
   color: var(--blanco);
 }
-
-
 
 .tarea-enter,
 .proyecto-enter {
@@ -305,26 +298,26 @@ aside  {
 }
 
 .form-usuario {
-    background-color: var(--gris2);
-    height: 100vh;
-    min-height: 800px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-color: var(--gris2);
+  height: 100vh;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contenedor-form {
-    padding: 5rem 3rem;
-    max-width: 500px;
-    width: 95%;
-    background-color: var(--blanco);
-    border-radius: 1rem;
+  padding: 5rem 3rem;
+  max-width: 500px;
+  width: 95%;
+  background-color: var(--blanco);
+  border-radius: 1rem;
 }
 
 .campo-form {
-    display: flex;
-    margin-bottom: 2rem;
-    align-items: center;
+  display: flex;
+  margin-bottom: 2rem;
+  align-items: center;
 }
 .campo-form:last-of-type {
   margin: 0;
@@ -334,7 +327,7 @@ aside  {
   font-family: var(--textFont);
 }
 .campo-form input[type="password"],
-.campo-form input[type="email"], 
+.campo-form input[type="email"],
 .campo-form input[type="text"] {
   border: 1px solid #e1e1e1;
   padding: 1rem;
@@ -344,7 +337,7 @@ aside  {
 .enlace-cuenta {
   margin-top: 2rem;
   display: block;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 /******************************************Landing****************************************************/
@@ -354,31 +347,28 @@ aside  {
   max-width: 1200px;
 }
 
-.main-section{
+.main-section {
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
 }
 
-.land{
+.land {
   background-color: #ffffff;
   height: 135vh;
 }
 
-.header__landing{
+.header__landing {
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 80px;
-
-
 }
 
-.header__landing ul{
+.header__landing ul {
   display: flex;
   width: 28%;
   justify-content: space-between;
-
 }
 
 .header__landing ul li {
@@ -391,94 +381,81 @@ aside  {
 .header__landing .linker {
   list-style: none;
   font-weight: 600;
-  color: black ;
+  color: black;
 }
 .header__landing .linker:hover {
   border-bottom: 1px solid rgb(163, 25, 140);
 }
 
-
-.burbuja .circle{
+.burbuja .circle {
   position: absolute;
   right: 55%;
   filter: blur(3px);
   margin-left: 60px;
-  top:80%
+  top: 80%;
 }
 
-.circle2{
+.circle2 {
   position: absolute;
   right: 65%;
   filter: blur(3px);
   margin-left: 60px;
-  top:10%
+  top: 10%;
 }
 
-.circle3{
+.circle3 {
   position: absolute;
   right: 20%;
   filter: blur(3px);
   margin-left: 60px;
-  top:30%
+  top: 30%;
 }
-
-
-
-
-
-
-
 
 .info-landing {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "title  banner";
   text-align: left;
   margin-bottom: 15rem;
-
 }
 
-
-.title-land{
+.title-land {
   display: flex;
   flex-direction: column;
   justify-content: center;
   grid-area: title;
- 
-
 }
 
-.title-land .title{
+.title-land .title {
   font-size: 4.4rem;
-  font-family: 'Chelsea Market', cursive;
+  font-family: "Chelsea Market", cursive;
   color: var(--h1);
-  text-align: left; 
+  text-align: left;
 }
 
-.span-color{
+.span-color {
   color: #c90075;
   font-weight: 700;
 }
 
-.title-land .support{
+.title-land .support {
   font-size: 2rem;
 }
 
-.title-land .empresas{
+.title-land .empresas {
   font-size: 2.2rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: #8a99ad;
-  
 }
 
-.title-land  .support-img{
+.title-land .support-img {
   width: 100px;
   margin-right: 50px;
   margin-bottom: 20px;
-  
 }
 
-.info-button{
+.info-button {
   background: #ec7709;
   box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.527);
   border-radius: 15px;
@@ -490,60 +467,48 @@ aside  {
   border: 2px solid #ec7709;
   font-weight: 600;
   font-size: 2.2rem;
-  transition: .4s;
-
-
+  transition: 0.4s;
 }
 
-.info-button Link{
+.info-button Link {
   color: #030108 !important;
 }
 
-.info-button:hover{
+.info-button:hover {
   background: rgb(240, 196, 160);
-  border: transparent ;
+  border: transparent;
 }
 
-.info-landing img{
+.info-landing img {
   grid-area: banner;
   width: 700px;
 }
 
-
-
-
 /** section features **/
-.whyfylo{
- 
+.whyfylo {
   height: 60vh;
-  
 }
 
 .whyfylo h1 {
-  font-family: 'Chelsea Market', cursive;
+  font-family: "Chelsea Market", cursive;
   color: #c90075;
 }
-.whyfylo
-.features {
+.whyfylo .features {
   margin-left: auto;
   margin-right: auto;
   max-width: 1200px;
- 
+
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-areas: "features2 rocket features2";
-  
 }
 
-.features2  {
+.features2 {
   grid-area: "features2";
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
-
-
 }
 
 .features .feature {
@@ -558,69 +523,57 @@ aside  {
 .features h2 {
   margin-top: 8px;
   color: #112649;
-  
 }
 
-.rocket{
+.rocket {
   grid-area: "rocket";
   display: flex;
   justify-content: center;
   align-items: center;
-
-  
 }
-.rocket img{
+.rocket img {
   border-radius: 50%;
 }
 
 .features h2 {
   font-size: 2.6rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 section.features p {
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1.6;
-  color:#030108;
+  color: #030108;
   font-size: 2rem;
   font-weight: 600;
   width: 50%;
   text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
 /************************************/
 
-.bost{
+.bost {
   background: white;
-
+height: 1000px;
   margin-top: 20rem;
+  display: flex;
+  align-items: center;
 }
 
-.info-landing .cohete{
+.info-landing .cohete {
   width: 500px;
 }
 
-.organized{
+.organized {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
-  
 }
 
 .organized h1 {
-  font-family: 'Chelsea Market', cursive;
+  font-family: "Chelsea Market", cursive;
   font-weight: 700;
   color: #af0f6c;
 }
@@ -636,10 +589,6 @@ section.features p {
   font-size: 2rem;
   font-weight: bold;
 }
-
-
-
-
 
 /** footer **/
 
@@ -676,7 +625,6 @@ footer .footer_content {
   flex-direction: column;
 }
 
-
 .form {
   display: flex;
   align-items: center;
@@ -684,13 +632,12 @@ footer .footer_content {
 }
 
 .footer-info h2 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: rgb(219, 187, 2);
-  
 }
 
-
-.button{
+.button {
   outline: none;
   background: rgb(241, 158, 3);
   border: none;
@@ -699,7 +646,7 @@ footer .footer_content {
   border-radius: 25px;
 }
 
-.atribution{
+.atribution {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -714,22 +661,20 @@ footer .footer_content {
 
 .early_access {
   background-color: #d62e90;
- 
+
   position: absolute;
   transform: translate(-50%, -90px);
   left: 50%;
   border-radius: 17px;
   padding: 20px;
   width: 50%;
-
-  
 }
 
 .early_access p {
   margin-top: 14px;
   line-height: 1.5;
   color: var(--white-2);
-  font-size: .89rem;
+  font-size: 0.89rem;
 }
 
 .early_access .form {
@@ -749,7 +694,12 @@ footer .footer_content {
 }
 
 #submit {
-  background-image: linear-gradient(to right, var(--accent-1), var(--accent-2), var(--accent-2));
+  background-image: linear-gradient(
+    to right,
+    var(--accent-1),
+    var(--accent-2),
+    var(--accent-2)
+  );
   width: 30%;
   color: var(--while-1);
   font-weight: 700;
@@ -761,32 +711,105 @@ footer .footer_content {
   background-image: linear-gradient(to right, var(--accent-2), var(--accent-1));
 }
 
-@media screen and (max-width:974px) {
+@media screen and (max-width: 974px) {
   .early_access {
-      transform: translate(-50%, -150px);
+    transform: translate(-50%, -150px);
   }
   .early_access .form {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   #submit {
-      width: 65%;
-      margin: 15px auto;
-      text-align: center;
-      align-items: center;
-      align-self: center;
+    width: 65%;
+    margin: 15px auto;
+    text-align: center;
+    align-items: center;
+    align-self: center;
   }
   #mail {
-      margin: auto;
-      text-align: center;
+    margin: auto;
+    text-align: center;
   }
 }
 
-@media only screen and (max-width:790px) {
+@media only screen and (max-width: 790px) {
   .early_access {
-      width: 85%;
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .info-landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info-landing .title-land {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info-landing .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .info-landing .banner {
+    width: 400px;
+    margin-top: 4rem;
+  }
+
+  .header__landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+  .header__landing ul {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header__landing ul li {
+    
+    margin-right: 1rem;
+  }
+
+  .rocket img {
+    width: 220px;
+    margin-bottom: 5rem;
+  }
+
+
+  .whyfylo{
+    height: 66vh;
+  }
+  .whyfylo .features {
+    height: 920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #80c2f8;
+  }
+
+  .bost .organized {
+    margin-top: 40rem;
+  
+  }
+
+
+
+  .organized .pe{
+   font-size: 1.5rem;
+   
   }
 }

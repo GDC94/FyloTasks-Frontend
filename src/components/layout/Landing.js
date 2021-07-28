@@ -68,7 +68,7 @@ const Landing = () => {
 
 
             <section className="whyfylo">
-             
+
                 <div className="features">
                     <div className="features2">
                         <div class="feature">
@@ -76,7 +76,6 @@ const Landing = () => {
                             <h2>Accesibilidad</h2>
 
                         </div>
-
                         <div class="feature">
                             <img src={security} alt="Security" />
                             <h2>Seguridad</h2>
@@ -84,11 +83,10 @@ const Landing = () => {
                         </div>
                     </div>
 
+
                     <div className="rocket">
                         <img src={man} alt="" width="400px" />
-
                     </div>
-
 
 
                     <div className="features2">
@@ -97,7 +95,6 @@ const Landing = () => {
                             <h2>Soporte las 24hs</h2>
 
                         </div>
-
                         <div class="feature">
                             <img src={folder} alt="Any file" />
                             <h2>Almacenamiento</h2>
@@ -105,11 +102,6 @@ const Landing = () => {
                         </div>
                     </div>
                 </div>
-
-
-
-
-
 
             </section>
 
@@ -121,14 +113,14 @@ const Landing = () => {
                         <div className="organized">
                             <h1>¿Como comenzar?</h1>
                             <div className="list">
-                                <p className="pe"><img src={check} alt=""/>Introduzca sus datos y registre su cuenta</p>
-                                <p className="pe"><img src={check} alt=""/>Ya en el panel de usuarios, verás la opción "Nuevo proyecto"</p>
-                                <p className="pe"><img src={check} alt=""/>Creá un proyecto y comenzá a agregarle tareas</p>
-                                <p className="pe"><img src={check} alt=""/>Podrás editarlas o eliminarlas</p>
-                                <p className="pe"><img src={check} alt=""/>¿Terminaste ese proyecto? Creá otro !</p>
+                                <p className="pe"><img src={check} alt="" />Introduzca sus datos y registre su cuenta</p>
+                                <p className="pe"><img src={check} alt="" />Ya en el panel de usuarios, verás la opción "Nuevo proyecto"</p>
+                                <p className="pe"><img src={check} alt="" />Creá un proyecto y comenzá a agregarle tareas</p>
+                                <p className="pe"><img src={check} alt="" />Podrás editarlas o eliminarlas</p>
+                                <p className="pe"><img src={check} alt="" />¿Terminaste ese proyecto? Creá otro !</p>
                             </div>
                         </div>
-                        <img className="cohete" src={montaje} />
+                        <img className="cohete" alt="" src={montaje} />
                     </div>
                 </div>
 
@@ -161,7 +153,7 @@ const Landing = () => {
 
             <footer>
                 <p class="atribution">
-                    <a href="#">Coded by German Derbes Catoni</a>.
+                    <a href="!#">Coded by German Derbes Catoni</a>.
                 </p>
             </footer>
         </div>
