@@ -1,9 +1,11 @@
 :root {
   --blanco: #ffffff;
   --gris1: #80c2f8;
-  --gris2: #112649;
+  --gris2: #30a3d8;
+  --rosa: rgb(15, 10, 80);
   --gris3: #80c2f8;
   --negro: #000000;
+  --h1: #012c64;
   --headingFont:'Raleway', sans-serif;
   --textFont:  'Roboto', sans-serif;
 }
@@ -29,7 +31,7 @@ h1, h2 {
   font-weight: 900;
   margin: 0 0 4rem 0;
   text-align: center;
-  color: var(--gris2);
+  color: var(--rosa);
 }
 h1 span {
   font-weight: 400;
@@ -47,7 +49,8 @@ ul {
 }
 a {
   text-decoration: none;
-  color: var(--gris2);
+  color: black;
+  font-weight: bold;
 }
 
 /** BOTONES **/
@@ -65,7 +68,7 @@ a {
   cursor: pointer;
 }
 .btn-primario {
-  background-color: var(--gris2);
+  background-color:rgb(16, 6, 77);
   color: var(--blanco);
 }
 .btn-primario:hover {
@@ -85,7 +88,23 @@ a {
   margin: 0;
   padding: 0;
   display: block;
-  background-color: transparent;
+ color: whitesmoke;
+ background-color: transparent;
+ font-weight: 600;
+ 
+}
+
+.eliminar{
+  background-color: red;
+  color: rgb(250, 250, 250);
+  font-weight: bold;
+  display: block;
+  width: 100%;
+
+}
+
+.fa-user{
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -136,7 +155,7 @@ aside  {
 .app-header {
   display: flex;
   justify-content: space-between;
-  background-color: var(--gris2);
+  background-color: rgb(16, 6, 77);
   padding: 4rem;
 }
 .nombre-usuario {
@@ -328,3 +347,446 @@ aside  {
   opacity: .7;
 }
 
+/******************************************Landing****************************************************/
+.container__landing {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.main-section{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+}
+
+.land{
+  background-color: #ffffff;
+  height: 135vh;
+}
+
+.header__landing{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+
+
+}
+
+.header__landing ul{
+  display: flex;
+  width: 28%;
+  justify-content: space-between;
+
+}
+
+.header__landing ul li {
+  list-style: none;
+  font-weight: 600;
+}
+.header__landing ul li:hover {
+  border-bottom: 1px solid rgb(163, 25, 140);
+}
+.header__landing .linker {
+  list-style: none;
+  font-weight: 600;
+  color: black ;
+}
+.header__landing .linker:hover {
+  border-bottom: 1px solid rgb(163, 25, 140);
+}
+
+
+.burbuja .circle{
+  position: absolute;
+  right: 55%;
+  filter: blur(3px);
+  margin-left: 60px;
+  top:80%
+}
+
+.circle2{
+  position: absolute;
+  right: 65%;
+  filter: blur(3px);
+  margin-left: 60px;
+  top:10%
+}
+
+.circle3{
+  position: absolute;
+  right: 20%;
+  filter: blur(3px);
+  margin-left: 60px;
+  top:30%
+}
+
+
+
+
+
+
+
+
+.info-landing {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-areas: "title  banner";
+  text-align: left;
+  margin-bottom: 15rem;
+
+}
+
+
+.title-land{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  grid-area: title;
+ 
+
+}
+
+.title-land .title{
+  font-size: 4.4rem;
+  font-family: 'Chelsea Market', cursive;
+  color: var(--h1);
+  text-align: left; 
+}
+
+.span-color{
+  color: #c90075;
+  font-weight: 700;
+}
+
+.title-land .support{
+  font-size: 2rem;
+}
+
+.title-land .empresas{
+  font-size: 2.2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #8a99ad;
+  
+}
+
+.title-land  .support-img{
+  width: 100px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  
+}
+
+.info-button{
+  background: #ec7709;
+  box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.527);
+  border-radius: 15px;
+  width: 260px;
+  height: 45px;
+  outline: none;
+  cursor: pointer;
+  color: #112649 !important;
+  border: 2px solid #ec7709;
+  font-weight: 600;
+  font-size: 2.2rem;
+  transition: .4s;
+
+
+}
+
+.info-button Link{
+  color: #030108 !important;
+}
+
+.info-button:hover{
+  background: rgb(240, 196, 160);
+  border: transparent ;
+}
+
+.info-landing img{
+  grid-area: banner;
+  width: 700px;
+}
+
+
+
+
+/** section features **/
+.whyfylo{
+ 
+  height: 60vh;
+  
+}
+
+.whyfylo h1 {
+  font-family: 'Chelsea Market', cursive;
+  color: #c90075;
+}
+.whyfylo
+.features {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+ 
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-areas: "features2 rocket features2";
+  
+}
+
+.features2  {
+  grid-area: "features2";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+
+
+}
+
+.features .feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+}
+
+.features p,
+.features h2 {
+  margin-top: 8px;
+  color: #112649;
+  
+}
+
+.rocket{
+  grid-area: "rocket";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.rocket img{
+  border-radius: 50%;
+}
+
+.features h2 {
+  font-size: 2.6rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section.features p {
+  font-size: .8rem;
+  line-height: 1.6;
+  color:#030108;
+  font-size: 2rem;
+  font-weight: 600;
+  width: 50%;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/************************************/
+
+.bost{
+  background: white;
+
+  margin-top: 20rem;
+}
+
+.info-landing .cohete{
+  width: 500px;
+}
+
+.organized{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  
+}
+
+.organized h1 {
+  font-family: 'Chelsea Market', cursive;
+  font-weight: 700;
+  color: #af0f6c;
+}
+
+.organized img {
+  width: 40px;
+}
+
+.organized .pe {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+
+
+
+
+/** footer **/
+
+footer.main-footer {
+  max-width: 100%;
+  padding-top: 200px;
+  padding-bottom: 40px;
+  background-color: var(--clr-primary-3);
+  align-items: flex-start;
+}
+
+.main-footer .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .logo img {
+  width: 8rem;
+  height: auto;
+  margin: 0 30px 0 0;
+}
+
+footer .footer_content {
+  width: 90%;
+  margin: 40px auto;
+  justify-content: space-between;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-info h2 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(219, 187, 2);
+  
+}
+
+
+.button{
+  outline: none;
+  background: rgb(241, 158, 3);
+  border: none;
+  height: 43px;
+  width: 460px;
+  border-radius: 25px;
+}
+
+.atribution{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.atribution a {
+  color: #112649;
+  font-weight: bold;
+}
+
+/** div:Early access **/
+
+.early_access {
+  background-color: #d62e90;
+ 
+  position: absolute;
+  transform: translate(-50%, -90px);
+  left: 50%;
+  border-radius: 17px;
+  padding: 20px;
+  width: 50%;
+
+  
+}
+
+.early_access p {
+  margin-top: 14px;
+  line-height: 1.5;
+  color: var(--white-2);
+  font-size: .89rem;
+}
+
+.early_access .form {
+  margin-top: 15px;
+}
+
+.early_access .form input {
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+#mail {
+  width: 60%;
+  margin-right: 20px;
+}
+
+#submit {
+  background-image: linear-gradient(to right, var(--accent-1), var(--accent-2), var(--accent-2));
+  width: 30%;
+  color: var(--while-1);
+  font-weight: 700;
+  cursor: pointer;
+  transition: 1s ease;
+}
+
+#submit:hover {
+  background-image: linear-gradient(to right, var(--accent-2), var(--accent-1));
+}
+
+@media screen and (max-width:974px) {
+  .early_access {
+      transform: translate(-50%, -150px);
+  }
+  .early_access .form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  #submit {
+      width: 65%;
+      margin: 15px auto;
+      text-align: center;
+      align-items: center;
+      align-self: center;
+  }
+  #mail {
+      margin: auto;
+      text-align: center;
+  }
+}
+
+@media only screen and (max-width:790px) {
+  .early_access {
+      width: 85%;
+  }
+}

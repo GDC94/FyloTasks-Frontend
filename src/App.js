@@ -9,6 +9,7 @@ import ProyectoState from "./context/Proyectos/proyectoState";
 import TareaState from "./context/Tareas/tareaState";
 import tokenAuth from './config/token';
 import RutaPrivada from './components/rutas/RutaPrivada';
+import Landing from './components/layout/Landing';
 
 
 // Reviso si tenemos un token
@@ -26,7 +27,8 @@ function App() {
           <AuthState>
             <Router>
               <Switch>
-                <Route exact path="/" component={Login} />
+                <Route exact path="/" component={Landing} />
+                <Route exact path="/login" component={Login} />
                 <Route exact path="/nueva-cuenta" component={NuevaCuenta} />
                 <RutaPrivada exact path="/proyectos" component={Proyectos} />
               </Switch>
